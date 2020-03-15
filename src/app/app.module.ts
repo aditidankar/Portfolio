@@ -47,12 +47,22 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    AboutComponent,
+    ProjectsComponent,
+    BlogComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
